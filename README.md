@@ -1,10 +1,48 @@
 # Assignment 1
 
-You will only need one file, ie, your node module, for this assignment.
+•	addPost
+    - Function: For user to add new post(s).
+    - Parameters:
+        - Title
+        - Content
+        - Tag
+        - Likes
+    - Example:
+    contentMangement.addPost("Third Post!", "Went on my third trip to France and enjoyed the view there.","places", 80);
+    
+•	displayPosts
+    - Function: Display all the post that are available.
 
-In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
+    
+•	editPosts
+    - Function: For user to edit the title and content of a specific post.
+    - Parameters:
+        - Post Number
+        - Title
+        - Content
+    - Example:
+    contentMangement.editPosts(2,"Edited Second Post!", "Went on my second trip to Korea.");
 
-You can press **Ctrl+Shift+V** in this file in Visual Studio Code to see a live preview of the readme file.
+        
+•	deletePosts
+    - Function: For user to a specific post.
+    - Parameters:
+        - Post Number
+    - Example:
+    contentMangement.deletePosts(1);
+
+            
+•	filterTag
+    - Function: For user to view post that matches with the tag that they have indicated.
+    - Parameters:
+        - Tag
+    - Example:
+    contentMangement.filterTag("places");
+
+    
+
+    
+
 
 For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
