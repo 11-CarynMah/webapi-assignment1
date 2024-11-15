@@ -134,7 +134,7 @@ module.exports = {
         }
     },
 
-     //Function #4, filter tag
+     //Function #5, filter tag
      filterTag(tags){
         console.log();
         
@@ -159,6 +159,5 @@ module.exports = {
             }
             
         });
-     }
-
+     },
 }
