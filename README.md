@@ -47,4 +47,6 @@
 For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 # References
-Provide the references that you have used to support your assignment. 
+Debugging - ChatGPT
+Loop the array display - https://stackoverflow.com/questions/56804425/how-to-display-all-elements-of-an-array-composed-only-of-strings-with-a-for-lo 
+Set array to Null - https://stackoverflow.com/questions/17387571/javascript-array-splice-without-changing-the-index
